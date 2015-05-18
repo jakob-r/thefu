@@ -1,0 +1,13 @@
+Package: thefuckr
+Type: Package
+Title: Handy corrections for when you fucked up.
+Version: 0.0.1
+Date: 2015-05-18
+Author: Jakob Richter
+Maintainer: Jakob Richter <code@jakob-r.de>
+Description: With a call of fuck() you might be able to fix your last R command - or not.
+License: GPL Version 3
+Depends:
+  BBmisc,
+  stringr
+URL: https://github.com/jakob-r/thefuckr
