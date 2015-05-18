@@ -1,4 +1,4 @@
-Package: thefuckr
+Package: thefu
 Type: Package
 Title: Handy corrections for when you fucked up.
 Version: 0.0.1
@@ -9,5 +9,6 @@ Description: With a call of fuck() you might be able to fix your last R command 
 License: GPL Version 3
 Depends:
   BBmisc,
-  stringr
-URL: https://github.com/jakob-r/thefuckr
+  stringr,
+  checkmate
+URL: https://github.com/jakob-r/thefu
