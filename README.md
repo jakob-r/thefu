@@ -7,7 +7,7 @@ Inspired by [nvbn/thefuck](https://github.com/nvbn/thefuck).
 ## Install
 
 ```r
-devtools::install_github("jakob-r/thefuckr")
+devtools::install_github("jakob-r/thefu")
 ```
 And totally recommended:
 Run in command line or edit with your favourite text editor:
@@ -48,26 +48,11 @@ fuck()
 ```r
 # thought you already have the package installed?
 library(plyr)
-```
-
-```
-## Error in library(plyr): there is no package called 'plyr'
-```
-
-```r
 fuck()
 ```
 
 ```
-## The package plyr will be installed from http://cran.uni-muenster.de and loaded.
-## Installing package into '/home/richter/R/x86_64-pc-linux-gnu-library/3.1'
-## (as 'lib' is unspecified)
-```
-
-```
-## 
-## The downloaded source packages are in
-## 	'/tmp/RtmptLbFD9/downloaded_packages'
+## The package(s) e1071 are the closest matches to e1061 and are loaded now.
 ```
 
 ```r
@@ -85,36 +70,4 @@ fuck(confirm = TRUE)
 
 ```
 ## The package(s) tables are the closest matches to xtables and are loaded now.
-## Loading required package: Hmisc
-## Loading required package: grid
-## 
-## Attaching package: 'grid'
-## 
-## The following object is masked from 'package:BBmisc':
-## 
-##     explode
-## 
-## Loading required package: lattice
-## Loading required package: survival
-## Loading required package: splines
-## Loading required package: Formula
-## Loading required package: ggplot2
-## 
-## Attaching package: 'Hmisc'
-## 
-## The following objects are masked from 'package:plyr':
-## 
-##     is.discrete, summarize
-## 
-## The following object is masked from 'package:e1071':
-## 
-##     impute
-## 
-## The following object is masked from 'package:BBmisc':
-## 
-##     %nin%
-## 
-## The following objects are masked from 'package:base':
-## 
-##     format.pval, round.POSIXt, trunc.POSIXt, units
 ```

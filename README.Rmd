@@ -9,7 +9,7 @@ Inspired by [nvbn/thefuck](https://github.com/nvbn/thefuck).
 
 ## Install
 ```{r, eval=FALSE}
-devtools::install_github("jakob-r/thefuckr")
+devtools::install_github("jakob-r/thefu")
 ```
 And totally recommended:
 Run in command line or edit with your favourite text editor:
