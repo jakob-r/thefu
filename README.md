@@ -1,10 +1,6 @@
----
-title: "README"
-output: html_document
----
 
 
-# thefuckr
+# thefu
 Handy corrections for when you fucked up.
 Inspired by [nvbn/thefuck](https://github.com/nvbn/thefuck).
 
@@ -71,7 +67,7 @@ fuck()
 ```
 ## 
 ## The downloaded source packages are in
-## 	'/tmp/Rtmp7fzmYO/downloaded_packages'
+## 	'/tmp/RtmptLbFD9/downloaded_packages'
 ```
 
 ```r
