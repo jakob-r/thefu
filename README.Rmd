@@ -20,7 +20,7 @@ Change the `.Rprofile` so that it has the following lines somewhere.
 ```
 .First = function() {
   if (interactive()) {
-    library("thefuckr")
+    library("thefu")
   }
 }
 ```
@@ -36,11 +36,13 @@ try(remove.packages("xtables"), silent = TRUE)
 library(thefu)
 # misspelled an installed package?
 library(e1061)
-fuck()
+fu()
+
 # thought you already have the package installed?
 library(plyr)
-fuck()
+fu()
+
 # That package you don't know if you have it installed or how it is called exactly?
 library(xtables)
-fuck(confirm = TRUE)
+fu(confirm = TRUE)
 ```

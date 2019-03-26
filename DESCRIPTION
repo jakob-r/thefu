@@ -8,7 +8,6 @@ Maintainer: Jakob Richter <code@jakob-r.de>
 Description: With a call of fuck() you might be able to fix your last R command - or not.
 License: GPL Version 3
 Depends:
-  BBmisc,
-  stringr,
+  stringi,
   checkmate
 URL: https://github.com/jakob-r/thefu
