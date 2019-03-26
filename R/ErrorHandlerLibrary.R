@@ -1,4 +1,4 @@
-#' @include ErrorHandler.r
+#' @include ErrorHandler.R
 makeErrorHandler(
   name = "ErrorHandlerLibrary",
   error_detector = function(error) {

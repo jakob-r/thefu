@@ -18,7 +18,7 @@ Change the `.Rprofile` so that it has the following lines somewhere.
 ```
 .First = function() {
   if (interactive()) {
-    library("thefuckr")
+    library("thefu")
   }
 }
 ```

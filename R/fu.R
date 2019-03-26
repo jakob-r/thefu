@@ -9,9 +9,9 @@ fu = function(error = geterrmessage(), confirm = FALSE){
   assert_flag(confirm)
 
   for (error_handler in thefu$error_handler) {
-    detection = thefu$error_handler$error_detector(error)
-    if (!is.null(detection)) {
-      thefu$error_handler$error_solver(detection, confirm)
+    detection = error_handler$error_detector(error)
+    if (!is.null(detection) && !is.na(detection)) {
+      error_handler$error_solver(detection, confirm)
       break
     }
   }

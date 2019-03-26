@@ -33,7 +33,7 @@ try(remove.packages("xtables"), silent = TRUE)
 ```
 
 ```{r, cache=FALSE}
-library(thefu)
+library("thefu")
 # misspelled an installed package?
 library(e1061)
 fu()

@@ -4,7 +4,7 @@
 #   If error_detector returns NULL it means that this error handler cannot deal with this error
 # error_solver: function(detection)
 #   Gets the detection from the error_detector and can do anything
-#' @include zzz.r
+#' @include zzz.R
 makeErrorHandler = function(name, error_detector, error_solver) {
   error_handler = list(name = name, error_detector = error_detector, error_solver = error_solver)
   thefu$error_handler[[name]] = error_handler

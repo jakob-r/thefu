@@ -11,3 +11,15 @@ Depends:
   stringi,
   checkmate
 URL: https://github.com/jakob-r/thefu
+Encoding: UTF-8
+RoxygenNote: 6.1.1
+Collate: 
+    'zzz.R'
+    'ErrorHandler.R'
+    'ErrorHandlerFunction.R'
+    'ErrorHandlerLibrary.R'
+    'ErrorHandlerMlrLibrary.R'
+    'ErrorHandlerObject.R'
+    'fu.R'
+    'installAndLoadPackages.R'
+    'readConfirm.R'
