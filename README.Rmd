@@ -1,6 +1,10 @@
+---
+output: github_document
+---
+
 ```{r, echo=FALSE}
 library(knitr)
-opts_chunk$set(error = TRUE)
+opts_chunk$set(error = TRUE, cache = FALSE)
 ```
 
 # thefu
@@ -27,22 +31,31 @@ Change the `.Rprofile` so that it has the following lines somewhere.
 
 ## Usage
 ```{r, echo = FALSE, results='hide', warning=FALSE, message=FALSE, cache=FALSE}
-try(remove.packages("plyr"), silent = TRUE)
-try(remove.packages("xtable"), silent = TRUE)
-try(remove.packages("xtables"), silent = TRUE)
+try(remove.packages("purrr"), silent = TRUE)
+library(thefu)
 ```
 
-```{r, cache=FALSE}
-library("thefu")
-# misspelled an installed package?
+You misspelled an installed package?
+
+```{r}
 library(e1061)
 fu()
+```
 
-# thought you already have the package installed?
-library(plyr)
+Thought you already have the package installed?
+
+```{r}
+library(purrr)
 fu()
+```
 
-# That package you don't know if you have it installed or how it is called exactly?
-library(xtables)
+```{r, include=FALSE}
+try(remove.packages("randomsearch"), silent = TRUE)
+```
+
+That package you don't know if you have it installed or how it is called exactly?
+
+```{r}
+library(randomserch)
 fu(confirm = TRUE)
 ```
